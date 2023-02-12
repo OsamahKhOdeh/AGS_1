@@ -111,7 +111,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
   const classes = useStyles();
 
   const clear = () => {
-    setProductData({ category: "", country: "", company: "", code: "", brand: "", price: 0, capacity: "", image: "", description: "", netWeight: 0, grossWeight: 0, palatSize: 12, bl: [] });
+    setProductData({ category: "", country: "", company: "", code: "", brand: "", price: 0, capacity: "", image: "", description: "", netWeight: 0, grossWeight: 0, palatSize: 0, bl: [] });
   };
 
   const handleUpload = async () => {
@@ -136,6 +136,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
 
       clear();
     } catch (e) {
+      showErrorMessage();
       console.log(e);
     }
   };
@@ -153,6 +154,19 @@ const ProductForm = ({ currentId, setCurrentId }) => {
       theme: "light",
     });
   };
+   const showErrorMessage = () => {
+    toast.error("Please complete all mandatory fields or enter a valid image", {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
+
 
   return (
     <Paper className={classes.paper} elevation={6}>
