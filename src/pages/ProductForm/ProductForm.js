@@ -177,7 +177,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
         </Typography>
         <FormControl fullWidth sx={{ m: 1, minWidth: 120 }}>
           <InputLabel id="demo-simple-select-helper-label">Category</InputLabel>
-          <Select required labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.category} label="Category" onChange={(e) => setProductData({ ...productData, category: e.target.value })}>
+          <Select  labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.category} label="Category" onChange={(e) => setProductData({ ...productData, category: e.target.value })}>
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -192,7 +192,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
         </FormControl>
         <FormControl fullWidth sx={{ m: 1, minWidth: 120 }}>
           <InputLabel id="demo-simple-select-helper-label">Country</InputLabel>
-          <Select required labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.country} label="Country" onChange={(e) => setProductData({ ...productData, country: e.target.value })}>
+          <Select  labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.country} label="Country" onChange={(e) => setProductData({ ...productData, country: e.target.value })}>
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -207,7 +207,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
         </FormControl>
         <FormControl fullWidth sx={{ m: 1, minWidth: 120 }}>
           <InputLabel id="demo-simple-select-helper-label">Company</InputLabel>
-          <Select required labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.company} label="Company" onChange={(e) => setProductData({ ...productData, company: e.target.value })}>
+          <Select  labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.company} label="Company" onChange={(e) => setProductData({ ...productData, company: e.target.value })}>
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -223,7 +223,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
         </FormControl>
         <FormControl fullWidth sx={{ m: 1, minWidth: 120 }}>
           <InputLabel id="demo-simple-select-helper-label">Brand</InputLabel>
-          <Select required labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.brand} label="Brand" onChange={(e) => setProductData({ ...productData, brand: e.target.value })}>
+          <Select  labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.brand} label="Brand" onChange={(e) => setProductData({ ...productData, brand: e.target.value })}>
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -238,7 +238,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
         </FormControl>
         <FormControl fullWidth sx={{ m: 1, minWidth: 120 }}>
           <InputLabel id="demo-simple-select-helper-label">Capacity</InputLabel>
-          <Select required labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.capacity} label="Capacity" onChange={(e) => setProductData({ ...productData, capacity: e.target.value })}>
+          <Select  labelId="demo-simple-select-helper-label" id="demo-simple-select-helper" value={productData.capacity} label="Capacity" onChange={(e) => setProductData({ ...productData, capacity: e.target.value })}>
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -252,9 +252,9 @@ const ProductForm = ({ currentId, setCurrentId }) => {
           </Select>
         </FormControl>
 
-        <TextField required name="code" variant="outlined" label="Product Code" fullWidth value={productData.code} onChange={(e) => setProductData({ ...productData, code: e.target.value })} />
+        <TextField  name="code" variant="outlined" label="Product Code" fullWidth value={productData.code} onChange={(e) => setProductData({ ...productData, code: e.target.value })} />
         <TextField
-          required
+          
           name="netWeight"
           variant="outlined"
           label="Net Weight"
@@ -265,7 +265,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
           }}
         />
         <TextField
-          required
+          
           name="grossWeight"
           variant="outlined"
           label="Gross Weight"
@@ -276,7 +276,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
           }}
         />
         <TextField
-          required
+          
           name="paletSize"
           variant="outlined"
           label="Palet Size"
@@ -286,7 +286,7 @@ const ProductForm = ({ currentId, setCurrentId }) => {
             if (e.target.value === "" || regex.test(e.target.value)) setProductData({ ...productData, palatSize: e.target.value });
           }}
         />
-        <TextField required name="description" variant="outlined" label="DESECRIPTION" fullWidth multiline minRows={4} value={productData.description} onChange={(e) => setProductData({ ...productData, description: e.target.value })} />
+        <TextField  name="description" variant="outlined" label="DESECRIPTION" fullWidth multiline minRows={4} value={productData.description} onChange={(e) => setProductData({ ...productData, description: e.target.value })} />
         <Container>
           <TextField name="0" variant="outlined" label="BL Code" value={productData.bl.code} onChange={handleBlCodeChange} />
           <TextField name="0" variant="outlined" label="BL Quantity" value={productData.bl.qty} onChange={handleBlQtyChange} />
