@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { TextField, Button, Typography, Paper, Container } from "@material-ui/core";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { createProduct } from "../../api";
 //import { CloudinaryContext, Image } from "cloudinary-react";
 import InputLabel from "@mui/material/InputLabel";
@@ -130,14 +132,31 @@ const ProductForm = ({ currentId, setCurrentId }) => {
     console.log(productData);
     try {
       const { data } = await createProduct(productData);
+            showToastMessage();
+
       clear();
     } catch (e) {
       console.log(e);
     }
   };
+  
+  
+  const showToastMessage = () => {
+    toast.success("Product added Succesfully ✅", {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
 
   return (
     <Paper className={classes.paper} elevation={6}>
+     <ToastContainer />
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
         <Typography variant="h3" style={{ backgroundColor: "" }}>
           Adding Product
