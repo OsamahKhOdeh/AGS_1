@@ -237,6 +237,14 @@ export const companyBrandCapacity = [
         brandName: "Suoer Inverter",
         capacities: ["1.5 KVA", "2 KVA"],
       },
+      {
+        brandName: "Suoer Controller PWM",
+        capacities: ["10 A", "20 A", "30 A", "40 A", "50 A", "60 A"],
+      },
+      {
+        brandName: "Suoer Controller MPPT",
+        capacities: ["20 A"],
+      },
     ],
   },
   {
@@ -266,15 +274,15 @@ export const companyBrandCapacity = [
     brands: [
       {
         brandName: "EXIDE",
-        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "240 AH"],
+        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "230 AH", "240 AH"],
       },
       {
         brandName: "INDEX",
-        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "240 AH"],
+        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "230 AH", "240 AH"],
       },
       {
         brandName: "CEIL",
-        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "240 AH"],
+        capacities: ["115 AH", "150 AH", "200 AH", "220 AH", "230 AH", "240 AH"],
       },
     ],
   },
