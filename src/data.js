@@ -152,7 +152,7 @@ export const companyBrandCapacity = [
     companyName: "Must power",
     brands: [
       {
-        brandName: "AGS",
+        brandName: "MUST",
         capacities: ["1 KW", "3 KW", "5.2 KW"],
       },
     ],
