@@ -313,23 +313,23 @@ export const companyBrandCapacity = [
     brands: [
       {
         brandName: "KOREANA",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH","32", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
       },
       {
         brandName: "VOLTEX",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH","32", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
       },
       {
         brandName: "KINGSLIGHT",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH","32", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
       },
       {
         brandName: "DTR",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH","32", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
       },
       {
         brandName: "FLASH",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH","32", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
       },
     ],
   },
@@ -342,15 +342,15 @@ export const companyBrandCapacity = [
       },
       {
         brandName: "MEGAPOWER",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH","170 AH", "200 AH"],
       },
       {
         brandName: "ROCKET",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH","170 AH", "200 AH"],
       },
       {
         brandName: "MAXTORM",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH","170 AH", "200 AH"],
       },
     ],
   },
