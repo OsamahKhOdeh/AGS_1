@@ -191,7 +191,7 @@ export const companyBrandCapacity = [
     companyName: "Dongjin",
     brands: [
       {
-        brandName: "Donjin",
+        brandName: "Dongjin",
         capacities: ["30 AH", "32 AH", "45 AH", "58 AH"],
       },
       {
@@ -204,7 +204,7 @@ export const companyBrandCapacity = [
     companyName: "Longi",
     brands: [
       {
-        brandName: "Himo 6 ",
+        brandName: "Himo 6",
         capacities: ["570 W", "575 W"],
       },
       {
@@ -230,8 +230,8 @@ export const companyBrandCapacity = [
     companyName: "Suoer",
     brands: [
       {
-        brandName: "Suoer Charger ",
-        capacities: ["5 A", "10 A", "20 A ", "30 A", "40 A", "50 A"],
+        brandName: "Suoer Charger",
+        capacities: ["5 A", "10 A", "20 A", "30 A", "40 A", "50 A"],
       },
       {
         brandName: "Suoer Inverter",
@@ -338,7 +338,7 @@ export const companyBrandCapacity = [
     brands: [
       {
         brandName: "SUPREME",
-        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH", "200 AH"],
+        capacities: ["30 AH", "40 AH", "55 AH", "66 AH", "70 AH", "74 AH", "90 AH", "100 AH", "150 AH","170 AH", "200 AH"],
       },
       {
         brandName: "MEGAPOWER",
